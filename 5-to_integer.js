@@ -2,7 +2,7 @@ const argCount = process.argv[2];
 const intNum = parseInt(argCount);
 
 if (isNaN(intNum)) {
-  console.log("Not a  number");
+  console.log("Not a number");
 } else{
-    console.log(intNum);
+    console.log("My number:", intNum);
 }
